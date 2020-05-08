@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saylani Form</title>
+    <link rel="stylesheet" href="assignment2css.css">
+</head>
+<body>
+    <center>
+        <img src="saylanilogo.jpg" alt="saylani logo" height="200px" width="500px">
+        <h1 id="mainheading">STUDENT REGISTRATION FORM</h1>
+</center>
+    <form class="blue"  >
+        <table>
+            <tr>
+                <td class="samewidth">FIRST NAME</td>
+                <td><input type="text" placeholder="Enter First Name" name="fname" id="fname"> (max 30 characters a-z and A-Z)</td> 
+            </tr>
+            <tr>
+                <td class="samewidth" >LAST NAME</td>
+                <td><input type="text" placeholder="Enter Last Name" name="fname" id="fname"> (max 30 characters a-z and A-Z)</td> 
+            </tr>
+            <tr >
+                <td class="samewidth">DATE OF BIRTH</td>
+                <td  >
+                    <select name="datea" id="" >
+                        <option value="">Day</option>
+                    </select>
+                
+                    <select name="month" id="">
+                        <option value="">Month</option>
+                    </select>
+                
+                    <select name="year" id="">
+                            <option value="">Year</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="samewidth" >EMAIL ID</td>
+                <td><input type="text" placeholder="Enter Email Adress" name="fname" id="fname"> </td> 
+            </tr>
+            <tr>
+                <td class="samewidth" >MOBILE NUMBER</td>
+                <td><input type="text" placeholder="Enter Mobile Number " name="fname" id="fname">(10 digit Number)</td> 
+            </tr>
+            <tr>
+                <td class="samewidth" >GENDER</td>
+                <td>
+                 <sub>   Male</sub><input type="radio" id="male" name="gender" value="male">
+                 <sub>   Female</sub><input type="radio" id="female" name="gender" value="female">
+                </td>
+            </tr>
+            <tr>
+                <td class="samewidth" >ADDRESS</td>
+                <td><textarea name="address" id="" cols="50" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td class="samewidth">CITY</td>
+                <td><input type="text" placeholder="Enter First Name" name="fname" id="fname"> (max 30 characters a-z and A-Z)</td> 
+            </tr>
+            <tr>
+                <td class="samewidth">PIN CODE</td>
+                <td><input type="text" placeholder="Enter pincode" name="fname" id="fname"> (6 digit number)</td> 
+            </tr>
+            <tr>
+                <td class="samewidth">STATE</td>
+                <td><input type="text" placeholder="Enter State" name="fname" id="fname"> (max 30 characters a-z and A-Z)</td> 
+            </tr>
+            <tr>
+                <td class="samewidth">COUNTRY</td>
+                <td><input type="text" placeholder="Enter Country" name="fname" id="fname"></td> 
+            </tr>
+            <tr>
+                <td class="samewidth">HOBBIES</td>
+                <td>
+                    Drawing<input type="checkbox" >
+                    Singing<input type="checkbox" >
+                    Dancing<input type="checkbox" >
+                    Sketching<input type="checkbox" >
+                </td>
+            </tr>
+            <tr>
+                <td class="samewidth"></td>
+                <td>
+                    Other<input type="checkbox" >
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td class="samewidth">QUALIFICATION</td>
+                <td>
+                    <div id="tableintable">
+                    <table>
+                        <tr>
+                            <td>Sl.no </td>
+                            <td> Examination </td>
+                            <td>Board</td>
+                            <td>Percentage</td>
+                            <td>Year of Passing</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td> Class X</td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td> Class XII</td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td> Graduation</td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td> Masters</td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                    </table>
+                </div>
+                </td>
+            </tr>
+            <tr>
+                
+                <td class="samewidth">COURSES APPLIED FOR</td>
+                <td>
+                    BCA<input type="radio" name="co">
+                    B.Com<input type="radio" name="co">
+                    B.Sc<input type="radio" name="co">
+                    B.A<input type="radio" name="co">
+                </td>
+            </tr>
+        </table>
+        <center>
+            <input type="submit" name="submit" formaction="submitted.html"> 
+            <input type="submit" name="reset" value="Reset" formaction="index.html">
+        </form>
+            </center>
+    
+</body>
+</html>
