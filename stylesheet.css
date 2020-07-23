@@ -1,0 +1,52 @@
+#watch h1{
+    position: relative;
+    text-align: left;
+    font-weight: 700;
+    letter-spacing: 0.4em;
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+
+#watch #screen{
+    display: flex;
+}
+
+#watch #screen div span{
+    position: relative;
+    display: block;
+    width: 100px;
+    height: 80px;
+    background-color: yellow;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 3em;
+    z-index: 10;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .2);
+}
+#watch #screen div:last-child span{
+    background-color: yellow;
+}
+
+#watch #screen div:last-child span button{
+    background-color: yellow;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    min-height: 50vh;
+}
+
+@media only screen and (max-width: 900px){
+    #watch{
+       min-width: 300px;
+    }
+}
+
